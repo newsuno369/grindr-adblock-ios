@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>PayloadIdentifier</key>
+<string>com.grindr.adblockv2.dns.54c70a2e-2a4e-4574-90b3-80c7e601c0a4</string>
+<key>PayloadUUID</key>
+<string>54c70a2e-2a4e-4574-90b3-80c7e601c0a4</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadDisplayName</key>
+<string>Grindr Ad Blocker</string>
+<key>PayloadDescription</key>
+<string>Aggressive DNS-level ad/tracker blocking</string>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerURL</key>
+<string>https://dns.adguard-dns.com/dns-query</string>
+<key>ServerAddresses</key>
+<array>
+<string>94.140.14.14</string>
+<string>94.140.15.15</string>
+<string>2a10:50c0::ad1:ff</string>
+<string>2a10:50c0::ad2:ff</string>
+</array>
+</dict>
+<key>ProhibitDoT</key>
+<true/>
+<key>MatchDomains</key>
+<array>
+<string>.</string>
+</array>
+</dict>
+</array>
+<key>PayloadDisplayName</key>
+<string>Grindr Ad Blocker (v2)</string>
+<key>PayloadDescription</key>
+<string>Blocks all Grindr ad networks and trackers via AdGuard DNS-over-HTTPS</string>
+<key>PayloadIdentifier</key>
+<string>com.grindr.adblockv2.d48e63b3-8218-4c24-8033-f8a2065d5a1e</string>
+<key>PayloadUUID</key>
+<string>d48e63b3-8218-4c24-8033-f8a2065d5a1e</string>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadOrganization</key>
+<string>Grindr Ad Blocker</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+</dict>
+</plist>
